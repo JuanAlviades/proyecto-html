@@ -1,3 +1,71 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {}
+
+section {
+    background-image: url(../imagenes/fondo_pantalla.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    padding: 300px;
+}
+
+main {
+    font-family: 'Signika Negative', sans-serif;
+    border-radius: 40px;
+}
+
 img {
-    width: 100px
+    width: 100px;
+}
+
+h2 {
+    padding-top: 30px;
+}
+
+h2,
+p {
+    text-align: center;
+}
+
+li {
+    font-size: center;
+    padding: 20px;
+    border-radius: 50px;
+}
+
+ol {
+    padding-top: 20px;
+}
+
+.fondo {
+    margin: 10px;
+}
+
+.elementos {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.morado {
+    color: blueviolet;
+}
+
+.titulo {
+    font-size: 60px;
+    text-align: left;
+    font-family: 'Smooch';
+    color: wheat;
+    text-decoration: overline;
+    font-weight: lighter;
+}
+
+.sub-titulo {
+    color: wheat;
+    text-align: left;
+    text-decoration: double;
+    font-family: 'Signika Negative', sans-serif;
 }
